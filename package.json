@@ -12,6 +12,10 @@
     "version": "6.2.0"
   },
   "dependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-git": "^1.1.1",
     "hexo": "^6.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -22,6 +26,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3",
+    "load-grunt-tasks": "^5.1.0"
   }
 }

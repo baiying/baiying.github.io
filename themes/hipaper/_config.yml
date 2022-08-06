@@ -22,7 +22,7 @@ favicon: css/images/favicon.ico
 # Put your avatar.jpg into `hexo-site/themes/hipaper/source/` directory.
 # url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
 avatar: 
-  enable: false
+  enable: true
   width: 124
   height: 124
   bottom: 10
