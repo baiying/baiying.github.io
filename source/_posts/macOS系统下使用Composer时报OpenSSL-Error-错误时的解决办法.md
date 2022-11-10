@@ -9,6 +9,8 @@ Failed to enable crypto
 
 出现该错误的原因是本地php.ini中的CA证书没有启用或者已经过期，导致https验证失败。解决办法也很简单，步骤描述如下：
 
+
+
 1. 如果本地php.ini中没有启动CA证书，则需要下载一个最新的证书文件，下载地址：[http://curl.haxx.se/docs/caextract.html](http://curl.haxx.se/docs/caextract.html)
 2. 下载完毕后将证书文件保存到一个目录中，我放在了/usr/local/ssl目录中
 3. 找到本地php.ini文件，找到其中的 "openssl.cafile"项，将其前面的';'去掉，并将证书存放路径填写到等号后面，例如：
