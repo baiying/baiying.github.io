@@ -20,6 +20,6 @@ openssl.cafile=/usr/local/ssl/cacert.pem
 如果是由于本地CA证书过期的话，处理也很简单，从[http://curl.haxx.se/docs/caextract.html](http://curl.haxx.se/docs/caextract.html)下载最新的证书，用其内容替换掉老证书即可。
 
 ---
-date: 2022-08-23 17:59:26
+date: 2022-08-30 17:59:26
 tags: [PHP, Composer, SSL, OpenSSL]
 ---
