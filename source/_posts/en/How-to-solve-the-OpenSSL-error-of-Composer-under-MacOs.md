@@ -1,6 +1,8 @@
 ---
 title: How to solve the OpenSSL error of Composer under MacOs
 date: 2022-11-29 10:18:26
+cover: /images/programming.png
+thumbnail: /images/programming.png
 categories: [Programming, Skill]
 tags: [MacOS, PHP, Composer, OpenSSL]
 ---
