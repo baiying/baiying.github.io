@@ -1,17 +1,23 @@
 ---
 title: How to solve the OpenSSL error of Composer under MacOs
+toc: true
 date: 2022-11-29 10:18:26
 cover: /images/programming.png
 thumbnail: /images/programming.png
 categories: [Programming, Skill]
 tags: [MacOS, PHP, Composer, OpenSSL]
 ---
+
+## Question
+
 When using Composer under macOS system, sometimes you will encounter the following error message:
 
 ```bash
 OpenSSL Error messages: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed 
 Failed to enable crypto
 ```
+
+## Reason & Solve
 
 The reason for this error is that the CA certificate in the local php.ini is not enabled or has expired, which leads to the failure of https verification. The solution is also very simple, the steps are as follows:
 

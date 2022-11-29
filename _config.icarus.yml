@@ -46,7 +46,6 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
     links:
         Download on GitHub:
             icon: fab fa-github
@@ -84,30 +83,30 @@ search:
     index_pages: true
 comment:
     type: disqus
-    shortname: ''
-donates:
-    -
-        type: afdian
-        url: ''
-    -
-        type: alipay
-        qrcode: ''
-    -
-        type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
-    -
-        type: paypal
-        business: ''
-        currency_code: USD
-    -
-        type: wechat
-        qrcode: ''
+    shortname: 'blog-baiying-io'
+# donates:
+#     -
+#         type: afdian
+#         url: ''
+#     -
+#         type: alipay
+#         qrcode: ''
+#     -
+#         type: buymeacoffee
+#         url: ''
+#     -
+#         type: patreon
+#         url: ''
+#     -
+#         type: paypal
+#         business: ''
+#         currency_code: USD
+#     -
+#         type: wechat
+#         qrcode: ''
 share:
     type: sharethis
-    install_url: ''
+    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=6385cc50432c1f0012fc5074&product=inline-share-buttons'
 sidebar:
     left:
         sticky: false
@@ -120,7 +119,7 @@ widgets:
         author: Evan Bai
         author_title: Keep learning
         location: Beijing, China
-        avatar: https://lh3.googleusercontent.com/a/ALm5wu2T3QCA_us6O1o6bKX-H4QMHhwZ4663mQpnMYffyA=s96-c
+        avatar: /images/avatar.png
         avatar_rounded: true
         gravatar: 
         follow_link: https://github.com/baiying
