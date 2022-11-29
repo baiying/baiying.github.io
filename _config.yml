@@ -3,19 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Dusk of eight
-subtitle: 'Hello world!'
-description: 'Hello world!'
-keywords: 编程,科技,PHP,Node,Javascript,Html,Css,C++,Delphi,Python,网络,故事
+title: Evan Bai
+subtitle: 'Blog'
+description: "Evan's personal blog"
+keywords: 编程,Programming,科技,Technology,PHP,Node,Javascript,Html,Css,C++,Delphi,Python,网络,故事,AI,Game
 author: BaiYing
-language: en-US
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://blog.baiying.io
-permalink: :year/:month/:day/:title/
+url: https://blog.baiying.io
+permalink: :lang/:title/
 permalink_defaults:
+  lang: en
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
@@ -31,7 +32,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :lang/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -97,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hipaper
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
