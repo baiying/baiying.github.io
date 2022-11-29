@@ -1,6 +1,26 @@
 widgets:
     -
         position: left
+        type: profile
+        author: Evan Bai
+        author_title: Keep learning
+        location: Beijing, China
+        avatar: /images/avatar.png
+        avatar_rounded: true
+        gravatar: 
+        follow_link: https://github.com/baiying
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/baiying
+            Facebook:
+                icon: fab fa-facebook
+                url: https://facebook.com
+            Twitter:
+                icon: fab fa-twitter
+                url: https://twitter.com
+    -
+        position: left
         type: toc
         index: true
         collapsed: true
