@@ -41,6 +41,7 @@ head:
         - ''
     rss: 
 navbar:
+    sticky: true
     menu:
         Home: /
         Archives: /archives
