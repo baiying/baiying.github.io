@@ -4,7 +4,7 @@ toc: true
 date: 2023-05-25 10:59:13
 cover: /images/programming.png
 thumbnail: /images/programming.png
-categories: [Programming, Skill, Nodejs, FrontEnd]
+categories: [Programming, Skill]
 tags: [MacOS, Nodejs]
 ---
 
